@@ -42,10 +42,37 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.locators" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.By_name">
+  <component name="RunManager" selected="Application.By_cssSelector">
+    <configuration name="By_LinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.locators.By_LinkText" />
+      <module name="Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="By_cssSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.locators.By_cssSelector" />
+      <module name="Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="By_id" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.locators.By_id" />
       <module name="Selenium_Java" />
@@ -85,39 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EdgeDemo_WebDriverManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.EdgeDemo_WebDriverManager" />
-      <module name="Selenium_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirefoxDemo_WebDriverManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FirefoxDemo_WebDriverManager" />
-      <module name="Selenium_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.By_cssSelector" />
+        <item itemvalue="Application.By_LinkText" />
         <item itemvalue="Application.By_name" />
         <item itemvalue="Application.By_id" />
         <item itemvalue="Application.ChromeDemo_WebDriverManager" />
-        <item itemvalue="Application.EdgeDemo_WebDriverManager" />
-        <item itemvalue="Application.FirefoxDemo_WebDriverManager" />
       </list>
     </recent_temporary>
   </component>
