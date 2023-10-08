@@ -46,7 +46,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.By_cssSelector">
+  <component name="RunManager" selected="Application.By_xpath">
     <configuration name="By_LinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.locators.By_LinkText" />
       <module name="Selenium_Java" />
@@ -99,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChromeDemo_WebDriverManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ChromeDemo_WebDriverManager" />
+    <configuration name="By_xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.locators.By_xpath" />
       <module name="Selenium_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.By_xpath" />
         <item itemvalue="Application.By_cssSelector" />
         <item itemvalue="Application.By_LinkText" />
         <item itemvalue="Application.By_name" />
         <item itemvalue="Application.By_id" />
-        <item itemvalue="Application.ChromeDemo_WebDriverManager" />
       </list>
     </recent_temporary>
   </component>
