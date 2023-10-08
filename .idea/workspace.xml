@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ced4318-b6b9-4690-9e34-04012ac8b020" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/locators/By_cssSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/locators/By_cssSelector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2WRYIhsonpgeSNWVdooEUoTQm9V" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -46,7 +51,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.By_xpath">
+  <component name="RunManager" selected="Application.By_cssSelector">
     <configuration name="By_LinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.locators.By_LinkText" />
       <module name="Selenium_Java" />
@@ -62,19 +67,6 @@
     </configuration>
     <configuration name="By_cssSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.locators.By_cssSelector" />
-      <module name="Selenium_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.locators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="By_id" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.locators.By_id" />
       <module name="Selenium_Java" />
       <extension name="coverage">
         <pattern>
@@ -112,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Example_E2E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Example_E2E" />
+      <module name="Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.By_xpath" />
         <item itemvalue="Application.By_cssSelector" />
+        <item itemvalue="Application.Example_E2E" />
+        <item itemvalue="Application.By_xpath" />
         <item itemvalue="Application.By_LinkText" />
         <item itemvalue="Application.By_name" />
-        <item itemvalue="Application.By_id" />
       </list>
     </recent_temporary>
   </component>

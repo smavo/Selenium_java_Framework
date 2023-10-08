@@ -17,8 +17,8 @@ public class By_cssSelector {
         driver.manage().window().maximize();
         driver.get("https://www.saucedemo.com/");
 
-        driver.findElement(By.cssSelector("#user-name")).sendKeys("standard_user");
-        driver.findElement(By.cssSelector("#password")).sendKeys("secret_sauce");
+        driver.findElement(By.cssSelector("input#user-name")).sendKeys("standard_user");
+        driver.findElement(By.cssSelector("input#password")).sendKeys("secret_sauce");
         driver.findElement(By.cssSelector("#login-button")).click();
 
         // Recuerda cerrar la instancia de WebDriver cuando hayas terminado
