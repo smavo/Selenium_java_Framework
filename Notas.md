@@ -1,4 +1,20 @@
 
+# SELENIUM 
+Es un conjunto de herramientas y bibliotecas de código abierto ampliamente utilizado para la automatización de pruebas de aplicaciones web. Selenium permite a los desarrolladores y probadores automatizar interacciones de usuario en un navegador web, lo que es esencial para probar la funcionalidad de una aplicación web y asegurar su calidad.
+
+### Componentes de Selenium
+**Selenium WebDriver** (Controlador de Navegador): Este es el componente principal de Selenium y proporciona una API de alto nivel para interactuar con navegadores web. Selenium WebDriver permite a los usuarios escribir scripts de prueba en lenguajes de programación como Java, Python, C#, etc., y controlar los navegadores como Google Chrome, Firefox, Microsoft Edge, Safari, entre otros. Los scripts de prueba interactúan con los navegadores a través de las API proporcionadas por WebDriver.
+
+**Selenium IDE** (Entorno de Desarrollo Integrado): Selenium IDE es una extensión de navegador que permite grabar y reproducir acciones del usuario en un navegador web. Aunque es útil para crear scripts de prueba rápidamente, es más adecuado para pruebas sencillas y pruebas exploratorias.
+
+**Selenium Grid** (Rejilla de Selenium): Selenium Grid es un componente que permite la ejecución paralela de pruebas en múltiples navegadores y sistemas operativos. Permite distribuir las pruebas en una granja de máquinas para acelerar la ejecución y garantizar la compatibilidad en diferentes configuraciones de navegador y plataforma.
+
+-----------------------------------------------------
+
+### Selenium Architecture Diagram
+![Selenium Architecture Diagram](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/05/Picture5.png)
+
+-----------------------------------------------------
 
 ### Web Locators
 Son mecanismos que se utilizan para identificar y localizar elementos en una página web. Estos localizadores permiten a Selenium interactuar con elementos HTML, como botones, enlaces, campos de texto, casillas de verificación, entre otros, durante la ejecución de pruebas de automatización. Selenium proporciona varios tipos de localizadores que puedes utilizar para encontrar elementos en una página web. Los localizadores más comunes en Selenium son los siguientes:
@@ -96,7 +112,6 @@ driver.navigate().back();
 driver.navigate().forward();
 driver.navigate().refresh();
 ```
-
 
 ------------------------------------------
 
