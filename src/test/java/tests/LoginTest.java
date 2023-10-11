@@ -1,16 +1,17 @@
-package org.example;
+package tests;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pages.LoginPage;
 
-public class TestUnit_Test {
+public class LoginTest {
 
     private static WebDriver driver;
+    static LoginPage loginPage;
 
     @BeforeAll
     public static void setUpClass(){
@@ -19,11 +20,12 @@ public class TestUnit_Test {
         WebDriverManager.chromedriver().driverVersion("117.0.5938.149").setup();
 
         // Crear una instancia de WebDriver para Chrome
-         driver = new ChromeDriver();
+        driver = new ChromeDriver();
 
         // Realizar tus tareas de automatización de Selenium utilizando la instancia 'driver'
         driver.manage().window().maximize();
-
+        driver.get("https://www.saucedemo.com/");
+        loginPage = new LoginPage(driver);
     }
 
     @AfterAll
@@ -34,18 +36,8 @@ public class TestUnit_Test {
     }
 
     @Test
-    public void test(){
-
-        driver.get("https://www.saucedemo.com/");
-
-        WebElement user = driver.findElement(By.id("user-name"));
-        WebElement password = driver.findElement(By.name("password"));
-        WebElement btn_login = driver.findElement(By.xpath("//*[@id=\"login-button\"]"));
-
-        user.sendKeys("standard_user");
-        password.sendKeys("secret_sauce");
-        btn_login.click();
-
+    public void loginTest() {
+        loginPage.makeLogin("standard_user", "secret_sauce");
     }
 
 }
